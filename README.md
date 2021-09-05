@@ -1,1 +1,1 @@
-# UQ-E-learning-Assistant
+# E-learning-Assistant
