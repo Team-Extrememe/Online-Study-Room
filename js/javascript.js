@@ -152,4 +152,33 @@ $(document).ready(function(){
         document.getElementById('fade1').style.display='none';
         $(".rabbit5").css("display", "none");
     }
+
+    $('.confirm_create').click(function(){
+        var time = $('#time').val();
+        localStorage.setItem("time", time);
+    });
+
+    if(localStorage.getItem("time") != null){
+        var selected_time = localStorage.getItem("time");
+        console.log(selected_time);
+        $(".selected_time").html(selected_time);
+    }
+
+    var countDownTime = localStorage.getItem("time");
+    var interval = setInterval(function(){
+
+        var timer = countDownTime.split(':');
+        var hours = parseInt(timer[0], 10);
+        var minutes = parseInt(timer[1], 10);
+        var seconds = parseInt(timer[2], 10);
+        --seconds;
+        hourse = (minutes < 0) ? --hours : hours;
+        minutes = (seconds < 0) ? --minutes : minutes;
+        if(minutes < 0) clearInterval(interval);
+        seconds = (seconds < 0) ? 59 : seconds;
+        seconds = (seconds < 10)? '0' + seconds : seconds;
+        $(".selected_time").html(hours + ':' + minutes + ':' + seconds);
+        countDownTime = hours + ":" + minutes + ":" + seconds;
+        localStorage.setItem("time", countDownTime);
+    }, 1000);
 });
