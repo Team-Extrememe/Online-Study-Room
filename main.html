@@ -20,14 +20,22 @@
         <li>
             
             
-            <div onclick="changeImage()">
-                <img src="./Images/video.png" alt="video" id="video">
+            <div class="camera">
+                <img src="./Images/camera_close.png" alt="video" id="video">
+            </div>
+            <div id="light8" class="preview">
+                <div class="close_guide_button5">&times;</div>
+                <span>Preview</span>
+                <video autoplay="true" id="videoElement">
+	
+                </video>
+                <button class="turnOn">Turn On</button>
             </div>
             
             
         </li>
         <li>
-            <div onclick="changeImage()">
+            <div>
                 <img src="./Images/micro.png" alt="micro" id="micro">
             </div>
         </li>
@@ -54,6 +62,13 @@
         <li>
             <img src="./Images/return.png" alt="return">
         </li>
+        <li>
+            <div>
+                <video autoplay="true" id="videoElement2">
+	
+                </video>
+            </div>
+        </li>
         </ul>
     </div>
 
@@ -71,7 +86,7 @@
     
     
 
-    
+    <div id="fade1" class="black"></div>
 </body>
 <footer>
     <div id="One">

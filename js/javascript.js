@@ -172,13 +172,132 @@ $(document).ready(function(){
         var minutes = parseInt(timer[1], 10);
         var seconds = parseInt(timer[2], 10);
         --seconds;
-        hourse = (minutes < 0) ? --hours : hours;
         minutes = (seconds < 0) ? --minutes : minutes;
-        if(minutes < 0) clearInterval(interval);
+        hours = (minutes < 0) ? --hours : hours;
+        minutes = (minutes < 0) ? 59 : minutes;
+        minutes = (minutes < 10)? '0' + minutes : minutes;
+        if(hours < 0) clearInterval(interval);
         seconds = (seconds < 0) ? 59 : seconds;
         seconds = (seconds < 10)? '0' + seconds : seconds;
         $(".selected_time").html(hours + ':' + minutes + ':' + seconds);
         countDownTime = hours + ":" + minutes + ":" + seconds;
         localStorage.setItem("time", countDownTime);
     }, 1000);
+
+    var off = 0;
+    $("#micro").click(function(){
+        if(off == 0){
+            $(this).attr("src", "Images/close_mic.png");
+            $(this).css("width", "40px");
+            $(this).css("margin-left", "20px");
+            $(this).css("margin-right", "20px");
+            $(this).addClass("micOff");
+            off = 1;
+        }else if(off == 1){
+            $(this).attr("src", "Images/micro.png");
+            $(this).css("width", "60px");
+            $(this).css("margin", "10px");
+            $(this).css("height", "60px");
+            off = 0;
+        }
+        
+    });
+
+    var cam = 0;
+    $(".camera").click(function(){
+        if(cam == 0){
+            document.getElementById('light8').style.display='block';
+            document.getElementById('fade1').style.display='block';
+            navigator.mediaDevices.getUserMedia({
+                video: true
+                })
+                .then(stream => {
+                window.localStream = stream;
+                video.srcObject = stream;
+                })
+                .catch((err) => {
+                console.log(err);
+                });
+            cam = 1;
+        }else if(cam == 1){
+            $("#video").attr("src", "Images/camera_close.png");
+            localStream.getVideoTracks()[0].stop();
+            video.src = '';
+            video.srcObject = null;
+            video2.srcObject = null;
+            cam = 0;
+            $("#videoElement2").removeClass("videoShadow");
+        }
+    });
+
+    function closePreview(){
+        document.getElementById('light8').style.display='none';
+        document.getElementById('fade1').style.display='none';
+        cam = 0;
+    }
+
+    $(".close_guide_button5").click(function(){
+        closePreview();
+        $("#video").attr("src", "Images/camera_close.png");
+        cam = 0;
+    });
+
+    const video = document.querySelector('#videoElement');
+  
+    const captureVideoButton = document.querySelector('.camera');
+    const stopVideoButton = document.querySelector('.close_guide_button5');
+  
+    //Capture Video
+    // $(captureVideoButton).click(function(){
+    //     navigator.mediaDevices.getUserMedia({
+    //         video: true
+    //         })
+    //         .then(stream => {
+    //         window.localStream = stream;
+    //         video.srcObject = stream;
+    //         })
+    //         .catch((err) => {
+    //         console.log(err);
+    //         });
+    // });
+    // captureVideoButton.onclick = function() {
+    //     navigator.mediaDevices.getUserMedia({
+    //     video: true
+    //     })
+    //     .then(stream => {
+    //     window.localStream = stream;
+    //     video.srcObject = stream;
+    //     })
+    //     .catch((err) => {
+    //     console.log(err);
+    //     });
+    // };
+    
+    stopVideoButton.onclick = function() {
+        localStream.getVideoTracks()[0].stop();
+        video.src = '';
+    };
+
+    // const video2 = document.querySelector('#videoElement2');
+    var video2 = document.querySelector('#videoElement2');
+
+    var constraints = { video: {width: 240,height: 180}};
+    $(".turnOn").click(function(){
+        closePreview();
+        $("#video").attr("src", "Images/video.png");
+        $(".camera").addClass("on");
+        $(".camera").removeClass("camera");
+        cam = 1;
+        navigator.mediaDevices.getUserMedia(constraints).then(function(mediaStream) {
+        console.log('getUserMedia:', mediaStream)
+        video2.srcObject = mediaStream;
+        video2.onloadedmetadata = function(e) {
+        video2.play();
+        };
+        // $("#videoElement2").css({"border-color": "grey", "border-width" : "1px", "border-style" : "solid"});
+        $("#videoElement2").addClass("videoShadow");
+    })
+
+    });
+
 });
