@@ -137,7 +137,6 @@ input[type="submit"]:hover{
 
 .home{
     width: 100%;
-    height: 36em;
 }
 
 .account{
@@ -152,7 +151,6 @@ input[type="submit"]:hover{
 
 .room_container{
     width: 100%;
-    height: 100%;
 }
 
 .create_room{
@@ -173,8 +171,6 @@ input[type="submit"]:hover{
     bottom: 100px; */
     font-family: 'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;
     /* padding-left: 340px; */
-    float: left;
-    height: 10em;
 }
 
 .create_text span{
@@ -241,7 +237,6 @@ input[type="submit"]:hover{
     right: 420px;
     bottom: 100px; */
     font-family: 'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;
-    float: left;
 }
 
 .join_text span{
@@ -273,7 +268,6 @@ input[type="submit"]:hover{
 .join_text button{
     /* position: relative;
     right: -85px; */
-    margin-left: 350px;
     width: 207px;
     height: 47px;
     background: inherit;

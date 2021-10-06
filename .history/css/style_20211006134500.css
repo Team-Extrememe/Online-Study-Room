@@ -137,7 +137,6 @@ input[type="submit"]:hover{
 
 .home{
     width: 100%;
-    height: 36em;
 }
 
 .account{
@@ -241,7 +240,6 @@ input[type="submit"]:hover{
     right: 420px;
     bottom: 100px; */
     font-family: 'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;
-    float: left;
 }
 
 .join_text span{

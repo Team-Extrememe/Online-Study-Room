@@ -137,7 +137,6 @@ input[type="submit"]:hover{
 
 .home{
     width: 100%;
-    height: 36em;
 }
 
 .account{
@@ -152,7 +151,6 @@ input[type="submit"]:hover{
 
 .room_container{
     width: 100%;
-    height: 100%;
 }
 
 .create_room{
@@ -172,9 +170,7 @@ input[type="submit"]:hover{
     left: 420px;
     bottom: 100px; */
     font-family: 'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;
-    /* padding-left: 340px; */
-    float: left;
-    height: 10em;
+    padding-left: 350px;
 }
 
 .create_text span{
@@ -191,20 +187,7 @@ input[type="submit"]:hover{
 .create_text span:nth-of-type(2){
     /* position: relative;
     left: -90px; */
-    /* padding-left: -50px;
-    text-align:left; */
-}
-
-.span1{
-    padding-left: 350px;
-}
-
-.span2{
-    padding-left: 260px;
-}
-
-.create{
-    margin-left: 350px;
+    padding-left: 300px;
 }
 
 .create_text button{
@@ -233,7 +216,6 @@ input[type="submit"]:hover{
 .join_room img{
     /* position: absolute;
     right: 450px; */
-    padding-left: 350px;
 }
 
 .join_text{
@@ -241,7 +223,6 @@ input[type="submit"]:hover{
     right: 420px;
     bottom: 100px; */
     font-family: 'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;
-    float: left;
 }
 
 .join_text span{
@@ -257,14 +238,6 @@ input[type="submit"]:hover{
     right: -40px; */
 }
 
-.span3{
-    padding-left: 300px;
-}
-
-.span4{
-    padding-left: 315px;
-}
-
 .join_text span:nth-of-type(2){
     /* position: relative;
     right: -60px; */
@@ -273,7 +246,6 @@ input[type="submit"]:hover{
 .join_text button{
     /* position: relative;
     right: -85px; */
-    margin-left: 350px;
     width: 207px;
     height: 47px;
     background: inherit;

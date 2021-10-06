@@ -137,7 +137,6 @@ input[type="submit"]:hover{
 
 .home{
     width: 100%;
-    height: 36em;
 }
 
 .account{
@@ -152,19 +151,17 @@ input[type="submit"]:hover{
 
 .room_container{
     width: 100%;
-    height: 100%;
 }
 
 .create_room{
     width: 50%;
     float: left;
-    /* margin-left: 350px; */
+    margin-left: 350px;
 }
 
 .create_room img{
     /* position: absolute;
     left: 450px; */
-    padding-left: 350px;
 }
 
 .create_text{
@@ -172,9 +169,6 @@ input[type="submit"]:hover{
     left: 420px;
     bottom: 100px; */
     font-family: 'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;
-    /* padding-left: 340px; */
-    float: left;
-    height: 10em;
 }
 
 .create_text span{
@@ -189,27 +183,13 @@ input[type="submit"]:hover{
 }
 
 .create_text span:nth-of-type(2){
-    /* position: relative;
-    left: -90px; */
-    /* padding-left: -50px;
-    text-align:left; */
-}
-
-.span1{
-    padding-left: 350px;
-}
-
-.span2{
-    padding-left: 260px;
-}
-
-.create{
-    margin-left: 350px;
+    position: relative;
+    left: -90px;
 }
 
 .create_text button{
-    /* position: relative;
-    left: 30px; */
+    position: relative;
+    left: 30px;
     width: 207px;
     height: 47px;
     background: inherit;
@@ -231,17 +211,15 @@ input[type="submit"]:hover{
 }
 
 .join_room img{
-    /* position: absolute;
-    right: 450px; */
-    padding-left: 350px;
+    position: absolute;
+    right: 450px;
 }
 
 .join_text{
-    /* position: absolute;
+    position: absolute;
     right: 420px;
-    bottom: 100px; */
+    bottom: 100px;
     font-family: 'Arial Negreta', 'Arial Normal', 'Arial', sans-serif;
-    float: left;
 }
 
 .join_text span{
@@ -253,27 +231,18 @@ input[type="submit"]:hover{
     overflow: hidden;
     padding-bottom: 10px;
     font-size: 28px;
-    /* position: relative;
-    right: -40px; */
-}
-
-.span3{
-    padding-left: 300px;
-}
-
-.span4{
-    padding-left: 315px;
+    position: relative;
+    right: -40px;
 }
 
 .join_text span:nth-of-type(2){
-    /* position: relative;
-    right: -60px; */
+    position: relative;
+    right: -60px;
 }
 
 .join_text button{
-    /* position: relative;
-    right: -85px; */
-    margin-left: 350px;
+    position: relative;
+    right: -85px;
     width: 207px;
     height: 47px;
     background: inherit;
