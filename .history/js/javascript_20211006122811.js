@@ -291,17 +291,14 @@ $(document).ready(function(){
         $(".camera").removeClass("camera");
         cam = 1;
         video2.srcObject = newVideo;
+        navigator.mediaDevices.getUserMedia(constraints).then(function(mediaStream) {
+        video2.srcObject = newVideo;
         video2.onloadedmetadata = function(e) {
-            video2.play();
+        video2.play();
         };
+        // $("#videoElement2").css({"border-color": "grey", "border-width" : "1px", "border-style" : "solid"});
         $("#videoElement2").addClass("videoShadow");
-
-    //     navigator.mediaDevices.getUserMedia(constraints).then(function(mediaStream) {
-    //     video2.srcObject = newVideo;
-        
-    //     // $("#videoElement2").css({"border-color": "grey", "border-width" : "1px", "border-style" : "solid"});
-        // $("#videoElement2").addClass("videoShadow");
-    // });
+    });
 
     });
 

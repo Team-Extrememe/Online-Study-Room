@@ -204,7 +204,6 @@ $(document).ready(function(){
     });
 
     var cam = 0;
-    var newVideo;
     $(".camera").click(function(){
         if(cam == 0){
             document.getElementById('light8').style.display='block';
@@ -215,7 +214,6 @@ $(document).ready(function(){
                 .then(stream => {
                 window.localStream = stream;
                 video.srcObject = stream;
-                newVideo = stream;
                 })
                 .catch((err) => {
                 console.log(err);
@@ -290,18 +288,15 @@ $(document).ready(function(){
         $(".camera").addClass("on");
         $(".camera").removeClass("camera");
         cam = 1;
-        video2.srcObject = newVideo;
+        navigator.mediaDevices.getUserMedia(constraints).then(function(mediaStream) {
+        console.log('getUserMedia:', mediaStream)
+        video2.srcObject = mediaStream;
         video2.onloadedmetadata = function(e) {
-            video2.play();
+        video2.play();
         };
+        // $("#videoElement2").css({"border-color": "grey", "border-width" : "1px", "border-style" : "solid"});
         $("#videoElement2").addClass("videoShadow");
-
-    //     navigator.mediaDevices.getUserMedia(constraints).then(function(mediaStream) {
-    //     video2.srcObject = newVideo;
-        
-    //     // $("#videoElement2").css({"border-color": "grey", "border-width" : "1px", "border-style" : "solid"});
-        // $("#videoElement2").addClass("videoShadow");
-    // });
+    })
 
     });
 
