@@ -809,11 +809,9 @@ input[type="submit"]:hover{
     }
 
     .join_text button{
-        width: 26%;
-        height: 26%;
+        width: 28%;
+        height: 30%;
         font-size: 20px;
-        float: right;
-        margin-right: 10px;
     }
 
 
