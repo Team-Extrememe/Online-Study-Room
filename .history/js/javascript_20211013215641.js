@@ -200,25 +200,13 @@ $(document).ready(function(){
     function openBubble8(){
         document.getElementById('fade2').style.display='block';
         document.getElementById('light13').style.display='block';
-        $(".mainrabbit3").css("display", "block");
+        $(".mainrabbit2").css("display", "block");
     }
 
     function closeBubble8(){
         document.getElementById('fade2').style.display='none';
         document.getElementById('light13').style.display='none';
-        $(".mainrabbit3").css("display", "none");
-    }
-
-    function openBubble9(){
-        document.getElementById('fade2').style.display='block';
-        document.getElementById('light14').style.display='block';
-        $(".mainrabbit4").css("display", "block");
-    }
-
-    function closeBubble9(){
-        document.getElementById('fade2').style.display='none';
-        document.getElementById('light14').style.display='none';
-        $(".mainrabbit4").css("display", "none");
+        $(".mainrabbit2").css("display", "none");
     }
 
     $(".close_guide_button12").click(function(){
@@ -233,18 +221,6 @@ $(document).ready(function(){
         window.location.href="home.html";
     });
 
-    $(".close_guide_button13").click(function(){
-        closeBubble8();
-        localStorage.setItem("guide", 0);
-        window.location.href="home.html";
-    });
-
-    $(".close_guide_button14").click(function(){
-        closeBubble9();
-        localStorage.setItem("guide", 0);
-        window.location.href="home.html";
-    });
-
     $(".mainnext1").click(function(){
         closeBubble6();
         openBubble7();
@@ -255,25 +231,9 @@ $(document).ready(function(){
         openBubble8();
     });
 
-    $(".mainnext3").click(function(){
-        closeBubble8();
-        openBubble9();
-    });
-
-
     $(".mainback2").click(function(){
         closeBubble7();
         openBubble6();
-    });
-
-    $(".mainback3").click(function(){
-        closeBubble8();
-        openBubble7();
-    });
-
-    $(".mainback4").click(function(){
-        closeBubble9();
-        openBubble8();
     });
 
     //display chat

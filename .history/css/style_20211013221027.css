@@ -918,8 +918,8 @@ input[type="submit"]:hover{
     width: 178px;
     /* height: 180px; */
     float: left;
-    top: 24%;
-    right: 3%;
+    top: 18%;
+    right: 14%;
     position: absolute; 
     background-color: transparent; 
     z-index:1002; 
@@ -930,9 +930,9 @@ input[type="submit"]:hover{
     display: none; 
     position: absolute; 
     top: 10%;
-    right: 9%; 
-    width: 298px; 
-    height: 124px; 
+    right: 2%; 
+    width: 274px; 
+    height: 80px; 
     border: 10x solid black; 
     background-color: white; 
     z-index:1002; 

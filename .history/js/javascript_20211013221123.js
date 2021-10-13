@@ -239,12 +239,6 @@ $(document).ready(function(){
         window.location.href="home.html";
     });
 
-    $(".close_guide_button14").click(function(){
-        closeBubble9();
-        localStorage.setItem("guide", 0);
-        window.location.href="home.html";
-    });
-
     $(".mainnext1").click(function(){
         closeBubble6();
         openBubble7();
@@ -269,11 +263,6 @@ $(document).ready(function(){
     $(".mainback3").click(function(){
         closeBubble8();
         openBubble7();
-    });
-
-    $(".mainback4").click(function(){
-        closeBubble9();
-        openBubble8();
     });
 
     //display chat

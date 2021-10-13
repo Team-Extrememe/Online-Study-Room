@@ -873,86 +873,6 @@ input[type="submit"]:hover{
     cursor: pointer;
 }
 
-.mainrabbit3{
-    display: none;
-    width: 178px;
-    /* height: 180px; */
-    float: left;
-    top: 18%;
-    right: 14%;
-    position: absolute; 
-    background-color: transparent; 
-    z-index:1002; 
-    overflow: auto;
-}
-
-.guide_div13{
-    display: none; 
-    position: absolute; 
-    top: 10%;
-    right: 2%; 
-    width: 274px; 
-    height: 80px; 
-    border: 10x solid black; 
-    background-color: white; 
-    z-index:1002; 
-    overflow: none;
-}
-
-.guide_text13 span{
-    font-size: 14px;
-    position: absolute;
-    top: 20px;
-}
-
-.close_guide_button13{
-    position: absolute;
-    right: 15px;
-    top: -2px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.mainrabbit4{
-    display: none;
-    width: 178px;
-    /* height: 180px; */
-    float: left;
-    top: 24%;
-    right: 3%;
-    position: absolute; 
-    background-color: transparent; 
-    z-index:1002; 
-    overflow: auto;
-}
-
-.guide_div14{
-    display: none; 
-    position: absolute; 
-    top: 10%;
-    right: 9%; 
-    width: 298px; 
-    height: 124px; 
-    border: 10x solid black; 
-    background-color: white; 
-    z-index:1002; 
-    overflow: none;
-}
-
-.guide_text14 span{
-    font-size: 14px;
-    position: absolute;
-    top: 20px;
-}
-
-.close_guide_button14{
-    position: absolute;
-    right: 15px;
-    top: -2px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
 .mainnext1{
     position: absolute;
     right: 14px;
@@ -994,22 +914,6 @@ input[type="submit"]:hover{
 }
 
 .mainback3{
-    position: absolute;
-    right: 35px;
-    bottom: 0;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-.mainnext4{
-    position: absolute;
-    right: 14px;
-    bottom: 0;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-.mainback4{
     position: absolute;
     right: 35px;
     bottom: 0;

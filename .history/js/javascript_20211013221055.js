@@ -209,18 +209,6 @@ $(document).ready(function(){
         $(".mainrabbit3").css("display", "none");
     }
 
-    function openBubble9(){
-        document.getElementById('fade2').style.display='block';
-        document.getElementById('light14').style.display='block';
-        $(".mainrabbit4").css("display", "block");
-    }
-
-    function closeBubble9(){
-        document.getElementById('fade2').style.display='none';
-        document.getElementById('light14').style.display='none';
-        $(".mainrabbit4").css("display", "none");
-    }
-
     $(".close_guide_button12").click(function(){
         closeBubble6();
         localStorage.setItem("guide", 0);
@@ -235,12 +223,6 @@ $(document).ready(function(){
 
     $(".close_guide_button13").click(function(){
         closeBubble8();
-        localStorage.setItem("guide", 0);
-        window.location.href="home.html";
-    });
-
-    $(".close_guide_button14").click(function(){
-        closeBubble9();
         localStorage.setItem("guide", 0);
         window.location.href="home.html";
     });
@@ -269,11 +251,6 @@ $(document).ready(function(){
     $(".mainback3").click(function(){
         closeBubble8();
         openBubble7();
-    });
-
-    $(".mainback4").click(function(){
-        closeBubble9();
-        openBubble8();
     });
 
     //display chat

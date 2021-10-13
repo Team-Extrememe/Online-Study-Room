@@ -798,7 +798,7 @@ input[type="submit"]:hover{
     width: 400px;
     /* height: 180px; */
     float: left;
-    left: 6%;
+    left: 9%;
     top: 8%;
     position: absolute; 
     background-color: transparent; 
@@ -806,52 +806,12 @@ input[type="submit"]:hover{
     overflow: auto;
 }
 
-.guide_div12{
+.guide_div10{
     display: none; 
     position: absolute; 
     top: 10%;
-    left: 3%; 
+    left: 6%; 
     width: 215px; 
-    height: 100px; 
-    border: 10x solid black; 
-    background-color: white; 
-    z-index:1002; 
-    overflow: none;
-}
-
-.guide_text12 span{
-    font-size: 14px;
-    position: absolute;
-    top: 20px;
-}
-
-.close_guide_button12{
-    position: absolute;
-    left: 184px;
-    top: -2px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.mainrabbit2{
-    display: none;
-    width: 400px;
-    /* height: 180px; */
-    float: left;
-    left: 12%;
-    top: 8%;
-    position: absolute; 
-    background-color: transparent; 
-    z-index:1002; 
-    overflow: auto;
-}
-
-.guide_div11{
-    display: none; 
-    position: absolute; 
-    top: 10%;
-    left: 8%; 
-    width: 230px; 
     height: 80px; 
     border: 10x solid black; 
     background-color: white; 
@@ -859,180 +819,15 @@ input[type="submit"]:hover{
     overflow: none;
 }
 
-.guide_text11 span{
+.guide_text10 span{
     font-size: 14px;
     position: absolute;
     top: 20px;
-}
-
-.close_guide_button11{
-    position: absolute;
-    left: 184px;
-    top: -2px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.mainrabbit3{
-    display: none;
-    width: 178px;
-    /* height: 180px; */
-    float: left;
-    top: 18%;
-    right: 14%;
-    position: absolute; 
-    background-color: transparent; 
-    z-index:1002; 
-    overflow: auto;
-}
-
-.guide_div13{
-    display: none; 
-    position: absolute; 
-    top: 10%;
-    right: 2%; 
-    width: 274px; 
-    height: 80px; 
-    border: 10x solid black; 
-    background-color: white; 
-    z-index:1002; 
-    overflow: none;
-}
-
-.guide_text13 span{
-    font-size: 14px;
-    position: absolute;
-    top: 20px;
-}
-
-.close_guide_button13{
-    position: absolute;
-    right: 15px;
-    top: -2px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.mainrabbit4{
-    display: none;
-    width: 178px;
-    /* height: 180px; */
-    float: left;
-    top: 24%;
-    right: 3%;
-    position: absolute; 
-    background-color: transparent; 
-    z-index:1002; 
-    overflow: auto;
-}
-
-.guide_div14{
-    display: none; 
-    position: absolute; 
-    top: 10%;
-    right: 9%; 
-    width: 298px; 
-    height: 124px; 
-    border: 10x solid black; 
-    background-color: white; 
-    z-index:1002; 
-    overflow: none;
-}
-
-.guide_text14 span{
-    font-size: 14px;
-    position: absolute;
-    top: 20px;
-}
-
-.close_guide_button14{
-    position: absolute;
-    right: 15px;
-    top: -2px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.mainnext1{
-    position: absolute;
-    right: 14px;
-    bottom: 0;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-.mainback1{
-    position: absolute;
-    right: 35px;
-    bottom: 0;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-.mainnext2{
-    position: absolute;
-    right: 14px;
-    bottom: 0;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-.mainback2{
-    position: absolute;
-    right: 35px;
-    bottom: 0;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-.mainnext3{
-    position: absolute;
-    right: 14px;
-    bottom: 0;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-.mainback3{
-    position: absolute;
-    right: 35px;
-    bottom: 0;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-.mainnext4{
-    position: absolute;
-    right: 14px;
-    bottom: 0;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-.mainback4{
-    position: absolute;
-    right: 35px;
-    bottom: 0;
-    font-size: 25px;
-    cursor: pointer;
 }
 
 #fade2{
-    display: block;
+    display: none;
 }
-
-/* .black{
-    display: none; 
-    position: absolute; 
-    top: 0%; 
-    left: 0%; 
-    width: 100%; 
-    height: 100%; 
-    background-color: black; 
-    z-index:1001; 
-    opacity:.80; 
-    filter: alpha(opacity=88); 
-} */
 
 /* main page*/
 

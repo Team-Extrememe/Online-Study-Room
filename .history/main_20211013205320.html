@@ -13,9 +13,9 @@
 </head>
 <body>
     <img class="mainrabbit" src="Images/rabbit2.png" alt="main_guide_rabbit">
-    <div id="light12" class="guide_div12" style="border-radius: 8px; border: 1px solid black;">
-        <div class="guide_text12">
-            <div class="close_guide_button12">&times;</div>
+    <div id="light10" class="guide_div10" style="border-radius: 8px; border: 1px solid black;">
+        <div class="guide_text10">
+            <div class="close_guide_button10">&times;</div>
             <span>Here you can set the time how long you want to study. Don't forget to turn on the camera during the study~</span>
             <div class="mainback1">&#8678;</div>
             <div class="mainnext1">&#8680;</div>
@@ -28,24 +28,6 @@
             <span>You can also use voice or text to chat with friends when you have any questions</span>
             <div class="mainback2">&#8678;</div>
             <div class="mainnext2">&#8680;</div>
-        </div>
-    </div>
-    <img class="mainrabbit3" src="Images/rabbit4.png" alt="main_guide_rabbit3">
-    <div id="light13" class="guide_div13" style="border-radius: 8px; border: 1px solid black;">
-        <div class="guide_text13">
-            <div class="close_guide_button13">&times;</div>
-            <span>Click here to invite your friends to study with you. Mutual supervision can make learning more efficient.</span>
-            <div class="mainback3">&#8678;</div>
-            <div class="mainnext3">&#8680;</div>
-        </div>
-    </div>
-    <img class="mainrabbit4" src="Images/rabbit4.png" alt="main_guide_rabbit4">
-    <div id="light14" class="guide_div14" style="border-radius: 8px; border: 1px solid black;">
-        <div class="guide_text14">
-            <div class="close_guide_button14">&times;</div>
-            <span>Before you start learning. Please scan the QR code with your mobile phone and add websites, and then your mobile phone and websites will be locked. this will help you concentrate on your study</span>
-            <div class="mainback4">&#8678;</div>
-            <div class="mainnext4">&#8680;</div>
         </div>
     </div>
     <div class="left">
@@ -109,16 +91,19 @@
     <div class="right">
         <ul id="nav_left">
         <li>
-            <a href="#"><img src="./Images/mobile.png" alt="mobile" onclick="qrDisplay()"></a>
+            <img src="./Images/log.png" alt="log">
         </li>
         <li>
-            <a href="#"><img src="./Images/internet.png" alt="internet" onclick="mobileDisplay()"></a>
+            <img src="./Images/mobile.png" alt="mobile">
         </li>
         <li>
-            <a href="#"><img src="./Images/invite.png" alt="invite" onclick="inviteDisplay()"></a>
+            <img src="./Images/internet.png" alt="internet">
         </li>
         <li>
-            <img src="./Images/return.png" alt="return" >
+            <img src="./Images/invite.png" alt="invite">
+        </li>
+        <li>
+            <img src="./Images/return.png" alt="return">
         </li>
         <li>
             <div>
@@ -145,64 +130,10 @@
     
 
     <div id="fade2" class="black"></div>
-    <!-- <div id="fade2" class="black"></div> -->
 </body>
 <footer>
     <div id="One">
         <img src="./images/One.png" alt="One">
-    </div>
-    <!-- 弹出窗口 - mobile -->
-    <div class="callout-mobile">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
-        <h2>Authorization</h2>
-        <div class="callout-container">
-        <p>Accept to lock all your tab pages which are not included in the white list.</p>
-        
-        </div>
-        <div class="callout-button">
-            <button class="button" onclick="this.parentElement.parentElement.style.display='none';">Accept</button>
-            <button class="button">Edit whiteboard</button>
-            <button class="button">Deny</button>
-        </div>
-    </div>
-    <div class="callout-QR">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
-        <h2>Authorization</h2>
-        <div class="callout-container">
-        <p>Accept to lock all your mobile apps which are not included in the white list.</p>
-        </div>
-        <div class="callout-button">
-            <!-- <p class="button">Accept</p>
-            <p class="button">Accept</p> -->
-            <button class="button" onclick="accept()">Accept</button>
-            <button class="button">Edit whiteboard</button>
-            <button class="button">Deny</button>
-        </div>
-    </div>
-    <div class="callout-code">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
-        <img src="./images/code.png" alt="code">
-        <p> Scan to lock your mobile phone</p>
-    </div>
-    <div class="partner">
-        <img src="./images/partner1.png" alt="partner1">
-
-    </div>
-
-    <!-- 弹出窗口 - invite friend -->
-    <div class="callout-invite">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
-        <h2>Invite your friend</h2>
-        <div class="callout-container">
-        <h4>Email Address: <input type="text" style="width: 100%;"></h4>
-        <h3>OR</h3>
-        <h4>Invitation link: <h5>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</h5> </h4>
-        </div>
-        <div class="callout-button">
-            <button class="button" onclick="partnerDisplay()">Accept</button>
-            <button class="button">Edit whiteboard</button>
-            <button class="button">Deny</button>
-        </div>
     </div>
     
 </footer>

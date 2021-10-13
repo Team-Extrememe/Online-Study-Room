@@ -271,11 +271,6 @@ $(document).ready(function(){
         openBubble7();
     });
 
-    $(".mainback4").click(function(){
-        closeBubble9();
-        openBubble8();
-    });
-
     //display chat
     var chatdisplay = 0
     $('.chat').click(function(){
