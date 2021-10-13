@@ -72,19 +72,16 @@
     <div class="right">
         <ul id="nav_left">
         <li>
-            <img src="./Images/log.png" alt="log">
+            <a href="#"><img src="./Images/mobile.png" alt="mobile" onclick="qrDisplay()"></a>
         </li>
         <li>
-            <img src="./Images/mobile.png" alt="mobile">
+            <a href="#"><img src="./Images/internet.png" alt="internet" onclick="mobileDisplay()"></a>
         </li>
         <li>
-            <img src="./Images/internet.png" alt="internet">
+            <a href="#"><img src="./Images/invite.png" alt="invite" onclick="inviteDisplay()"></a>
         </li>
         <li>
-            <img src="./Images/invite.png" alt="invite">
-        </li>
-        <li>
-            <img src="./Images/return.png" alt="return">
+            <img src="./Images/return.png" alt="return" >
         </li>
         <li>
             <div>
@@ -115,6 +112,59 @@
 <footer>
     <div id="One">
         <img src="./images/One.png" alt="One">
+    </div>
+    <!-- 弹出窗口 - mobile -->
+    <div class="callout-mobile">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+        <h2>Authorization</h2>
+        <div class="callout-container">
+        <p>Accept to lock all your tab pages which are not included in the white list.</p>
+        
+        </div>
+        <div class="callout-button">
+            <button class="button" onclick="this.parentElement.parentElement.style.display='none';">Accept</button>
+            <button class="button">Edit whiteboard</button>
+            <button class="button">Deny</button>
+        </div>
+    </div>
+    <div class="callout-QR">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+        <h2>Authorization</h2>
+        <div class="callout-container">
+        <p>Accept to lock all your mobile apps which are not included in the white list.</p>
+        </div>
+        <div class="callout-button">
+            <!-- <p class="button">Accept</p>
+            <p class="button">Accept</p> -->
+            <button class="button" onclick="accept()">Accept</button>
+            <button class="button">Edit whiteboard</button>
+            <button class="button">Deny</button>
+        </div>
+    </div>
+    <div class="callout-code">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+        <img src="./images/code.png" alt="code">
+        <p> Scan to lock your mobile phone</p>
+    </div>
+    <div class="partner">
+        <img src="./images/partner1.png" alt="partner1">
+
+    </div>
+
+    <!-- 弹出窗口 - invite friend -->
+    <div class="callout-invite">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+        <h2>Invite your friend</h2>
+        <div class="callout-container">
+        <h4>Email Address: <input type="text" style="width: 100%;"></h4>
+        <h3>OR</h3>
+        <h4>Invitation link: <h5>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</h5> </h4>
+        </div>
+        <div class="callout-button">
+            <button class="button" onclick="partnerDisplay()">Accept</button>
+            <button class="button">Edit whiteboard</button>
+            <button class="button">Deny</button>
+        </div>
     </div>
     
 </footer>

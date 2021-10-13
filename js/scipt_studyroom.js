@@ -19,3 +19,29 @@ function rabbit() {
         i=0
     }
 }
+function mobileDisplay() {
+    document.getElementsByClassName("callout-mobile")[0].style.display = "block";
+    
+}
+
+function qrDisplay() {
+    document.getElementsByClassName("callout-QR")[0].style.display = "block";
+    
+}
+
+function accept() {
+    document.getElementsByClassName("callout-QR")[0].style.display = "none";
+    document.getElementsByClassName("callout-code")[0].style.display = "block";
+    
+}
+
+function inviteDisplay() {
+    document.getElementsByClassName("callout-invite")[0].style.display = "block";
+    
+}
+
+function partnerDisplay() {
+    document.getElementsByClassName("partner")[0].style.display = "block";
+    document.getElementsByClassName("callout-invite")[0].style.display = "none";
+    
+}
