@@ -41,10 +41,6 @@ $(document).ready(function(){
         $(".rabbit4").css("display", "block");
     });
 
-    /* guide = 1: main page guide on
-        guide = 0: home page guide off
-        guide = 3: main page guide off
-    */
     $(".next4").click(function(){
         closeBubble4();
         window.location.href="main.html";
@@ -516,7 +512,7 @@ $(document).ready(function(){
     // });
 
     window.onbeforeunload = function(e){
-        // localStorage.removeItem("guide");
+        localStorage.removeItem("guide");
         // localStorage.removeItem("time");
         // localStorage.removeItem("roomID");
         // localStorage.removeItem("amount");

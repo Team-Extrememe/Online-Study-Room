@@ -41,9 +41,8 @@ $(document).ready(function(){
         $(".rabbit4").css("display", "block");
     });
 
-    /* guide = 1: main page guide on
-        guide = 0: home page guide off
-        guide = 3: main page guide off
+    /* guide = 1: guide on
+        guide = 0; guide off
     */
     $(".next4").click(function(){
         closeBubble4();
@@ -63,6 +62,7 @@ $(document).ready(function(){
     if(localStorage.getItem("guide") == 0){
         document.getElementById('light3').style.display='none';
         document.getElementById('fade1').style.display='none';
+        document.getElementById('fade2').style.display='none';
         $(".rabbit").css("display", "none");
     }
 
@@ -546,5 +546,8 @@ $(document).ready(function(){
             e.currentTarget.value = "";
         }
     });
+
+    document.getElementById('fade2').style.display='none';
+
 
 });

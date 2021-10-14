@@ -41,9 +41,8 @@ $(document).ready(function(){
         $(".rabbit4").css("display", "block");
     });
 
-    /* guide = 1: main page guide on
-        guide = 0: home page guide off
-        guide = 3: main page guide off
+    /* guide = 1: guide on
+        guide = 0; guide off
     */
     $(".next4").click(function(){
         closeBubble4();
