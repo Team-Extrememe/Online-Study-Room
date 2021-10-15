@@ -18,6 +18,15 @@
 	cursor: pointer;
 }
 
+/* .right ul li {
+	height: 200px;
+	width: 90px;
+} */
+.mobile{
+	size: 300%;
+
+}
+
 .selected_time{
 	/* position: absolute;
 	left: 16px;
