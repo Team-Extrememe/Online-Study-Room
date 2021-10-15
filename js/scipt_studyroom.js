@@ -52,3 +52,4 @@ function lockInternet(){
     document.getElementsByClassName("button")[0].parentElement.parentElement.style.display='none';
     document.getElementById("internet").src="./Images/internet_lock.jpg";
 }
+
