@@ -998,8 +998,8 @@ input[type="submit"]:hover{
     width: 400px;
     /* height: 180px; */
     float: left;
-    bottom: 24%;
-    right: 18%;
+    bottom: 50%;
+    right: 10%;
     position: absolute; 
     background-color: transparent; 
     z-index:1002; 
@@ -1009,8 +1009,8 @@ input[type="submit"]:hover{
 .guide_div16{
     display: none; 
     position: absolute; 
-    bottom: 50%;
-    right: 10%; 
+    bottom: 23%;
+    right: 16%; 
     width: 240px; 
     height: 75px; 
     border: 10x solid black; 

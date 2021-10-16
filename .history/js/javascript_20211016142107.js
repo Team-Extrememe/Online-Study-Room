@@ -70,8 +70,9 @@ $(document).ready(function(){
         document.getElementById('light7').style.display='block';
         document.getElementById('fade1').style.display='block';
         document.getElementById('light3').style.display='none';
+        document.getElementById('fade1').style.display='none';
         $(".rabbit").css("display", "none");
-        $(".rabbit5").css("display", "block");
+        $(".rabbit5").css("display", "none");
     }
 
     $(".repeatguide").click(function(){

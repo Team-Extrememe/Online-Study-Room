@@ -993,46 +993,6 @@ input[type="submit"]:hover{
     cursor: pointer;
 }
 
-.mainrabbit6{
-    display: none;
-    width: 400px;
-    /* height: 180px; */
-    float: left;
-    bottom: 24%;
-    right: 18%;
-    position: absolute; 
-    background-color: transparent; 
-    z-index:1002; 
-    overflow: auto;
-}
-
-.guide_div16{
-    display: none; 
-    position: absolute; 
-    bottom: 50%;
-    right: 10%; 
-    width: 240px; 
-    height: 75px; 
-    border: 10x solid black; 
-    background-color: white; 
-    z-index:1002; 
-    overflow: none;
-}
-
-.guide_text16 span{
-    font-size: 14px;
-    position: absolute;
-    top: 20px;
-}
-
-.close_guide_button16{
-    position: absolute;
-    right: 15px;
-    top: -2px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
 .mainnext1{
     position: absolute;
     right: 14px;

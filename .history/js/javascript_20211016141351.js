@@ -66,14 +66,6 @@ $(document).ready(function(){
         $(".rabbit").css("display", "none");
     }
 
-    if(localStorage.getItem("guide") == 4){
-        document.getElementById('light7').style.display='block';
-        document.getElementById('fade1').style.display='block';
-        document.getElementById('light3').style.display='none';
-        $(".rabbit").css("display", "none");
-        $(".rabbit5").css("display", "block");
-    }
-
     $(".repeatguide").click(function(){
         openBubble();
     });

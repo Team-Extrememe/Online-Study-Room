@@ -56,7 +56,7 @@ $(document).ready(function(){
     });
 
     if(localStorage.getItem("guide") == 1){
-        openBubble10();
+        openBubble6();
         console.log(1234);
     }
 
@@ -64,14 +64,6 @@ $(document).ready(function(){
         document.getElementById('light3').style.display='none';
         document.getElementById('fade1').style.display='none';
         $(".rabbit").css("display", "none");
-    }
-
-    if(localStorage.getItem("guide") == 4){
-        document.getElementById('light7').style.display='block';
-        document.getElementById('fade1').style.display='block';
-        document.getElementById('light3').style.display='none';
-        $(".rabbit").css("display", "none");
-        $(".rabbit5").css("display", "block");
     }
 
     $(".repeatguide").click(function(){
@@ -245,18 +237,6 @@ $(document).ready(function(){
         $(".mainrabbit5").css("display", "none");
     }
 
-    function openBubble11(){
-        document.getElementById('fade2').style.display='block';
-        document.getElementById('light16').style.display='block';
-        $(".mainrabbit6").css("display", "block");
-    }
-
-    function closeBubble11(){
-        document.getElementById('fade2').style.display='none';
-        document.getElementById('light16').style.display='none';
-        $(".mainrabbit6").css("display", "none");
-    }
-
     $(".close_guide_button12").click(function(){
         closeBubble6();
         localStorage.setItem("guide", 0);
@@ -287,12 +267,6 @@ $(document).ready(function(){
         window.location.href="home.html";
     });
 
-    $(".close_guide_button16").click(function(){
-        closeBubble11();
-        localStorage.setItem("guide", 0);
-        window.location.href="home.html";
-    });
-
     $(".mainnext1").click(function(){
         closeBubble6();
         openBubble7();
@@ -311,17 +285,6 @@ $(document).ready(function(){
     $(".mainnext5").click(function(){
         closeBubble10();
         openBubble6();
-    });
-
-    $(".mainnext4").click(function(){
-        closeBubble9();
-        openBubble11();
-    });
-
-    $(".mainnext6").click(function(){
-        closeBubble11();
-        localStorage.setItem("guide", 4);
-        window.location.href="home.html";
     });
 
     $(".mainback1").click(function(){
@@ -390,7 +353,7 @@ $(document).ready(function(){
     })
 
     if(localStorage.getItem("guide") == 3){
-        closeBubble10();
+        closeBubble6();
         console.log(12345);
     }
 

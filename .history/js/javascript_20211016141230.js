@@ -66,14 +66,6 @@ $(document).ready(function(){
         $(".rabbit").css("display", "none");
     }
 
-    if(localStorage.getItem("guide") == 4){
-        document.getElementById('light7').style.display='block';
-        document.getElementById('fade1').style.display='block';
-        document.getElementById('light3').style.display='none';
-        $(".rabbit").css("display", "none");
-        $(".rabbit5").css("display", "block");
-    }
-
     $(".repeatguide").click(function(){
         openBubble();
     });
@@ -287,12 +279,6 @@ $(document).ready(function(){
         window.location.href="home.html";
     });
 
-    $(".close_guide_button16").click(function(){
-        closeBubble11();
-        localStorage.setItem("guide", 0);
-        window.location.href="home.html";
-    });
-
     $(".mainnext1").click(function(){
         closeBubble6();
         openBubble7();
@@ -316,12 +302,6 @@ $(document).ready(function(){
     $(".mainnext4").click(function(){
         closeBubble9();
         openBubble11();
-    });
-
-    $(".mainnext6").click(function(){
-        closeBubble11();
-        localStorage.setItem("guide", 4);
-        window.location.href="home.html";
     });
 
     $(".mainback1").click(function(){

@@ -999,7 +999,7 @@ input[type="submit"]:hover{
     /* height: 180px; */
     float: left;
     bottom: 24%;
-    right: 18%;
+    right: 20%;
     position: absolute; 
     background-color: transparent; 
     z-index:1002; 

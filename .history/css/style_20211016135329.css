@@ -955,11 +955,11 @@ input[type="submit"]:hover{
 
 .mainrabbit5{
     display: none;
-    width: 400px;
+    width: 178px;
     /* height: 180px; */
     float: left;
-    bottom: 3%;
-    right: 22%;
+    top: 24%;
+    right: 3%;
     position: absolute; 
     background-color: transparent; 
     z-index:1002; 
@@ -969,10 +969,10 @@ input[type="submit"]:hover{
 .guide_div15{
     display: none; 
     position: absolute; 
-    bottom: 23%;
-    right: 16%; 
-    width: 275px; 
-    height: 91px; 
+    top: 10%;
+    right: 9%; 
+    width: 298px; 
+    height: 124px; 
     border: 10x solid black; 
     background-color: white; 
     z-index:1002; 
@@ -986,46 +986,6 @@ input[type="submit"]:hover{
 }
 
 .close_guide_button15{
-    position: absolute;
-    right: 15px;
-    top: -2px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.mainrabbit6{
-    display: none;
-    width: 400px;
-    /* height: 180px; */
-    float: left;
-    bottom: 24%;
-    right: 18%;
-    position: absolute; 
-    background-color: transparent; 
-    z-index:1002; 
-    overflow: auto;
-}
-
-.guide_div16{
-    display: none; 
-    position: absolute; 
-    bottom: 50%;
-    right: 10%; 
-    width: 240px; 
-    height: 75px; 
-    border: 10x solid black; 
-    background-color: white; 
-    z-index:1002; 
-    overflow: none;
-}
-
-.guide_text16 span{
-    font-size: 14px;
-    position: absolute;
-    top: 20px;
-}
-
-.close_guide_button16{
     position: absolute;
     right: 15px;
     top: -2px;
@@ -1106,22 +1066,6 @@ input[type="submit"]:hover{
 }
 
 .mainback5{
-    position: absolute;
-    right: 35px;
-    bottom: 0;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-.mainnext6{
-    position: absolute;
-    right: 14px;
-    bottom: 0;
-    font-size: 25px;
-    cursor: pointer;
-}
-
-.mainback6{
     position: absolute;
     right: 35px;
     bottom: 0;
