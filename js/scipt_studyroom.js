@@ -45,11 +45,14 @@ function inviteDisplay() {
 function partnerDisplay() {
     document.getElementsByClassName("partner")[0].style.display = "block";
     document.getElementsByClassName("callout-invite")[0].style.display = "none";
-    
+    document.getElementById("invite").src="./Images/Two.png";
 }
 
 function lockInternet(){
     document.getElementsByClassName("button")[0].parentElement.parentElement.style.display='none';
     document.getElementById("internet").src="./Images/internet_lock.jpg";
 }
+
+// Reference
+// 1. https://www.w3schools.com/js/default.asp
 
