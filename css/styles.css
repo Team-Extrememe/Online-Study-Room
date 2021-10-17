@@ -122,13 +122,14 @@
 }
 
 .callout-task{
-	display: none;
-	/* display: block; */
+	/* display: none; */
+	display: block;
 	position: absolute;
 	width: 35%;
 	height: 50%;
 	background-color:whitesmoke;
 	left: 25%;
+	padding-left: 5%;
 	top: 20%;
 }
 

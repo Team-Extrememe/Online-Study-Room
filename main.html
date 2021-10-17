@@ -168,8 +168,10 @@
             <h2>My Task List
                 <button onclick="taskDisplay()" class="addBtn">Add</button>
             </h2>
-            <img id="list" src="./images/list.png" alt="list">
-            
+            <!-- <img id="list" src="./images/list.png" alt="list"> -->
+            <div id="text">
+
+            </div>
         </div>
 
     </div>
@@ -244,18 +246,18 @@
         <h2>Add Your Daily Task</h2>
         <form action="/action_page.php">
             <label for="title">Title</label><br>
-            <input class="input" type="text" name="title"><br> 
+            <input class="input" id="title" type="text" name="title"><br> 
         </form>
         <br>
         
         <form id="dateSelect" action="/action_page.php">
             <label for="date">Date:</label>
             <br>
-            <input type="date" class="date" name="date">
+            <input type="date" id="date" name="date">
             <br>
             <br>
-            <input type="time" class="time" name="time">
-            <input type="time" class="time" name="time">
+            <input type="time" id="time1" name="time">
+            <input type="time" id="time2" name="time">
             <input type="submit" value="Submit">
             
             

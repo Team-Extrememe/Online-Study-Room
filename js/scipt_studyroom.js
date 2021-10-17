@@ -58,6 +58,18 @@ function taskDisplay() {
     
 }
 
+function messageOutput() {
+    var message1 = $("#title");
+    var message2 = $("#date");
+    var message3 = $("#time1");
+    var message4 = $("#time2");
+
+    document.getElementsByClassName("callout-task")[0].display='none';
+    if(message1 !=""){
+        $("#text").append("<p>"+message1+message2+message3+message4+"</p>");
+    }
+}
+
 // Reference
 // 1. https://www.w3schools.com/js/default.asp
 
