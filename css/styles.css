@@ -107,9 +107,7 @@
 	background-color: whitesmoke;
 }
 
-#dateSelect{
-	
-}
+
 
 #date{
 	
@@ -122,8 +120,8 @@
 }
 
 .callout-task{
-	/* display: none; */
-	display: block;
+	display: none;
+	/* display: block; */
 	position: absolute;
 	width: 35%;
 	height: 50%;
@@ -276,11 +274,17 @@
 
 .taskbox{
 	position: absolute;
+	/* top: 58%; */
 	bottom: 0;
 	width: 99%;
 	background-color: whitesmoke;
 	
 	height: 38%;
+}
+
+.addBtn{
+	position: absolute;
+	z-index: 99;
 }
 
 .taskbox ul li{
