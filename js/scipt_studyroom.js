@@ -53,6 +53,11 @@ function lockInternet(){
     document.getElementById("internet").src="./Images/internet_lock.jpg";
 }
 
+function taskDisplay() {
+    document.getElementsByClassName("callout-task")[0].style.display = "block";
+    
+}
+
 // Reference
 // 1. https://www.w3schools.com/js/default.asp
 

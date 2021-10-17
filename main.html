@@ -136,7 +136,7 @@
             <a href="#"><img src="./Images/invite.png" alt="invite" onclick="inviteDisplay()"></a>
         </li>
         <li>
-            <img src="./Images/return.png" alt="return" >
+            <a href="./home.html"><img src="./Images/return.png" alt="return" ></a>
         </li>
         <li>
             <div>
@@ -165,13 +165,11 @@
         </div>
         <!-- <hr /> -->
         <div class="taskbox">
-            <h2>My Task List</h2>
-            <input type="text" id="myInput" placeholder="Title...">
-            <span onclick="newElement()" class="addBtn">Add</span>
-            <ul id="myUL">
-                <li>Python assignment3</li>
-                <li class="checked">DECO3500 assignment2</li>
-            </ul>
+            <h2>My Task List
+                <button onclick="taskDisplay()" class="addBtn">Add</button>
+            </h2>
+            <img id="list" src="./images/list.png" alt="list">
+            
         </div>
 
     </div>
@@ -239,6 +237,36 @@
             <button class="button" onclick="partnerDisplay()">Accept</button>
             <button class="button">Edit whiteboard</button>
             <button class="button">Deny</button>
+        </div>
+    </div>
+    <div class="callout-task">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+        <h2>Add Your Daily Task</h2>
+        <form action="/action_page.php">
+            <label for="title">Title</label><br>
+            <input class="input" type="text" name="title"><br> 
+        </form>
+        <br>
+        
+        <form id="dateSelect" action="/action_page.php">
+            <label for="date">Date:</label>
+            <br>
+            <input type="date" class="date" name="date">
+            <br>
+            <br>
+            <input type="time" class="time" name="time">
+            <input type="time" class="time" name="time">
+            <input type="submit" value="Submit">
+            
+            
+        </form>
+
+
+
+        
+        <div class="callout-button">
+            
+            <button class="button" onclick="this.parentElement.parentElement.style.display='none';">Create</button>
         </div>
     </div>
     
