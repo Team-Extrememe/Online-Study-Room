@@ -11,5 +11,7 @@ https://invis.io/J911OXZU368C
 
 ## Link to High-Fidelity Prototype
 https://runx1ng.github.io.  
-Type any number or text to sign in but not to leave any input field empty.
+**To Start**: open the website and follow the guide to understand how to use the website.  
+**Login**: Type any number or text to sign in but not to leave any input field empty.  
+**Restart from the begining**: open up the website -> right click -> open up inspect -> go to application -> clean local storage -> refresh the page  
 
