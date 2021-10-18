@@ -6,6 +6,9 @@ https://github.com/Team-Extrememe/Online-Study-Room/wiki/Proposal
 ## Link to User Research
 https://github.com/Team-Extrememe/Online-Study-Room/wiki/User-Research  
 
+## Link to Design Process
+https://github.com/Team-Extrememe/Online-Study-Room/wiki/Prototype  
+
 ## Link to Low-Fidelity Prototype
 https://invis.io/J911OXZU368C  
 
