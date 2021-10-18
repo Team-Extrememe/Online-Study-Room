@@ -1,0 +1,26 @@
+.flex_container{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_left{
+    width: 15%;
+    height: 100vh;
+}
+
+.flex_right{
+    width: 85%;
+    height: 100vh;
+}
+
+.group{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+
+.user_name{
+    float: left;
+    display: block;
+}
