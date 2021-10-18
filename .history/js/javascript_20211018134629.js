@@ -381,9 +381,6 @@ $(document).ready(function(){
         var email = localStorage.getItem("email");
         // console.log(private);
 
-        if (email == null) {
-            alert("Please sign in before creating a new room");
-        }
         if (private && public && errorCount == 0) {
             $('.popup').append("<p class='errorMessage'>Please select either private or public</p>")
             errorCount = 1;
