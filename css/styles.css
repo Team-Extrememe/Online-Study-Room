@@ -282,6 +282,11 @@
 	height: 38%;
 }
 
+#text{
+	position: absolute;
+	z-index: 99;
+}
+
 .addBtn{
 	position: absolute;
 	z-index: 99;
