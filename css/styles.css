@@ -294,8 +294,12 @@
 }
 
 .addBtn{
+	
 	position: absolute;
+	right: 10%;
 	z-index: 99;
+	width: 10%;
+	
 }
 
 .taskbox ul li{
