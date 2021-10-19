@@ -287,6 +287,12 @@
 	z-index: 99;
 }
 
+#text{
+	margin-top: -6%;
+	font-style:oblique;
+	margin-left: 8%;
+}
+
 .addBtn{
 	position: absolute;
 	z-index: 99;

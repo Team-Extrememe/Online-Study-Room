@@ -9,7 +9,10 @@ $(document).ready(function(){
         document.getElementsByClassName("callout-task")[0].display='none';
         if(message1 != ""){
             console.log(123);
-            $("#text").append("<p>"+message1+message2+message3+message4+"</p>");
+            $("#text").append("<p></p>");
+            $("#text").append("<label for='mycheck'>"+"- "+message1+"</label>");
+            $("#text").append("<input type='checkbox' id='myCheck' onclick='myFunction()'>");
+            $("#text").append("<div>"+message3+" - "+message4+"</div>");
         }
     });
     
