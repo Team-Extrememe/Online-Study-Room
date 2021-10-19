@@ -1,5 +1,8 @@
 # Online Study Room
 
+## Link to Promotional Material  
+https://youtu.be/tiKmO2Wi5QQ  
+
 ## Link to Concept Proposal
 https://github.com/Team-Extrememe/Online-Study-Room/wiki/Proposal  
 
