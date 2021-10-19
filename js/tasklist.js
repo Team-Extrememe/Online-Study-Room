@@ -10,8 +10,9 @@ $(document).ready(function(){
         if(message1 != ""){
             console.log(123);
             $("#text").append("<p></p>");
-            $("#text").append("<label for='mycheck'>"+"- "+message1+"</label>");
-            $("#text").append("<input type='checkbox' id='myCheck' onclick='myFunction()'>");
+            // $("#text").append("<label for='mycheck'>"+"- "+message1+"</label>");
+            // $("#text").append("<input type='checkbox' id='myCheck' onclick='myFunction()'>");
+            $("#text").append("<a href='#'><div onclick='lineThrough()'>"+message1+"</div>"+"</a>")
             $("#text").append("<div>"+message3+" - "+message4+"</div>");
         }
     });
