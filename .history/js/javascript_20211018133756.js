@@ -378,16 +378,12 @@ $(document).ready(function(){
     $('.confirm_create').click(function(){
         var private =  $('.private').is(':checked');
         var public = $('.public').is(':checked');
-        var email = localStorage.getItem("email");
         // console.log(private);
 
-        if (email == null) {
-            alert("Please sign in before creating a new room");
-        }
         if (private && public && errorCount == 0) {
             $('.popup').append("<p class='errorMessage'>Please select either private or public</p>")
             errorCount = 1;
-        }else if(private && !public && email != null){
+        }else if(private && !public){
             localStorage.setItem("guide", 3);
             window.location = "main.html";
         }
@@ -615,7 +611,11 @@ $(document).ready(function(){
         }
     });
 
-    
+    $(".signin").click(function(){
+        console.log(123);
+        var email = $(".email").val();
+        localStorage.setItem("email", email);
+    });
 
     
 
