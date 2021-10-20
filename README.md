@@ -20,8 +20,15 @@ https://invis.io/J911OXZU368C
 https://runx1ng.github.io.
 
 ## The structure of WiKi
-* Poster
-
+* Introduction (incloudes a poster)
+* Background Research (includes initial literature reviews and additional literature reviews after interviews or observations)
+* User Research (includes two rounds interviews and results, two observations and results, and two personas and scenarios)
+* Proposal (mainly includes domain/problem space and design opportunity)
+* Prototype (includes initial and additional design requirements, Low Fidelity Prototype and evaluation, and High Fidelity Prototype and evaluation)
+* Meeting and Stand-Ups (includes meeting logs and Stand-Ups summary)
+* Team task allocation (includes all team members' contribution)
+* Team Contract (includes our member agreement)
+* Reference (includes all reference used in our whole process prototype design and coding)
 ## How to use the prototype
 **To Start**: open the website and follow the guide to understand how to use the website.  
 **Login**: Type any number or text to sign in but not to leave any input field empty.  
