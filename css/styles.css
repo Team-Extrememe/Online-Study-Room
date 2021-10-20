@@ -10,6 +10,13 @@
   float: left;
 }
 
+.create_button{
+	border: none;
+	padding: 0;
+	font-size: 130%;
+	
+}
+
 #nav_left li img{
 	width: 60px;
 	height: 60px;
@@ -122,6 +129,7 @@
 .callout-task{
 	display: none;
 	/* display: block; */
+	font-size: 120%;
 	position: absolute;
 	width: 35%;
 	height: 50%;

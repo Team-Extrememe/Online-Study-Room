@@ -59,7 +59,12 @@ function taskDisplay() {
 }
 
 function lineThrough() {
-    document.getElementById("text").style.textDecoration = "line-through";
+    if (document.getElementById("text").style.textDecoration == "line-through") {
+        document.getElementById("text").style.textDecoration = "none";
+    } else {
+        document.getElementById("text").style.textDecoration = "line-through";
+    }
+    
 }
 
 
