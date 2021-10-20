@@ -20,7 +20,7 @@ https://invis.io/J911OXZU368C
 https://runx1ng.github.io.
 
 ## The structure of WiKi
-
+* Poster
 
 ## How to use the prototype
 **To Start**: open the website and follow the guide to understand how to use the website.  
