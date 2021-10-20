@@ -1,6 +1,12 @@
 # Team Extrememe-Online Study Room
 
 ## Repository guidlines
+* Images: contains all the images for the functional website and also for the wiki.
+* js: contains all the JavaScript files for the funtional website
+* css: contains all the style sheets for the website.
+* html: all the html files are listed infront of the repo
+* vscode: the .vscode folder holds the project workspace settings where you can just ignore this folder.
+* history: one of the plugin in vscode we used to keep track of the code editing history and can be ignored as well. 
 
 ## Hyperlinked Overview
 ### Link to Promotional Material-kickstarter video
