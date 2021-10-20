@@ -25,9 +25,12 @@ https://github.com/Team-Extrememe/Online-Study-Room/wiki/Prototype
 https://invis.io/J911OXZU368C  
 
 ### Link to High-Fidelity Prototype
-https://b70mdy.axshare.com/#id=c5k599
+https://350dur.axshare.com/#id=c5k599&p=home_guide1&sc=3&g=1  
 
 ### Link to Final Prototype
+https://b70mdy.axshare.com/#id=c5k599&p=home_guide1  
+
+### Link to Coding Prototype
 https://runx1ng.github.io.
 
 ## The structure of WiKi
