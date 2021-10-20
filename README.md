@@ -36,7 +36,7 @@ https://runx1ng.github.io.
 ## The structure of WiKi
 * Introduction (incloudes a poster)
 * Background Research (includes initial literature reviews and additional literature reviews after interviews or observations)
-* User Research (includes two rounds interviews and results, two observations and results, and two personas and scenarios)
+* User Research (includes two rounds interviews and results, two observations and results, and two personas and one scenario)
 * Proposal (mainly includes domain/problem space and design opportunity)
 * Prototype (includes initial and additional design requirements, Low Fidelity Prototype and evaluation, and High Fidelity Prototype and evaluation)
 * Meeting and Stand-Ups (includes meeting logs and Stand-Ups summary)
