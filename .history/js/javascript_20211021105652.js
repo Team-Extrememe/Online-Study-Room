@@ -1,14 +1,5 @@
 $(document).ready(function(){
 
-    $(".account").click(function(){
-        console.log(123);
-        if(localStorage.getItem("email") != null){
-            window.location.href="profile.html";
-        }else{
-            window.location.href="login.html";
-        }
-    });
-
     $(".create").click(function(){
         openDialog();
     });
@@ -266,23 +257,6 @@ $(document).ready(function(){
         $(".mainrabbit6").css("display", "none");
     }
 
-    function openBubble12(){
-        document.getElementById('fade2').style.display='block';
-        document.getElementById('light17').style.display='block';
-        $(".mainrabbit7").css("display", "block");
-    }
-
-    function closeBubble12(){
-        document.getElementById('fade2').style.display='none';
-        document.getElementById('light17').style.display='none';
-        $(".mainrabbit7").css("display", "none");
-    }
-
-    $(".congratulation").click(function(){
-        $(".guide_text17 span").empty();
-        closeBubble12();
-    });
-
     $(".close_guide_button12").click(function(){
         closeBubble6();
         localStorage.setItem("guide", 0);
@@ -395,11 +369,6 @@ $(document).ready(function(){
         time = $('#time').val();
         localStorage.setItem("time", time);
         var amount = $(".amount").val();
-        if(amount > 6){
-            alert("You cannot create a room with more than 6 people");
-        }else if(amount < 1){
-            alert("You need to at least create a room with 1 person");
-        }
         localStorage.setItem("amount", amount);
         var roomId = Math.floor(100 + Math.random() * 900);
         localStorage.setItem("roomID", roomId);
@@ -408,7 +377,7 @@ $(document).ready(function(){
     $(".confirm_join").click(function(){
         window.location.href="https://b70mdy.axshare.com/#id=7hq1eh&p=study_in_pubilc&g=1&sc=3";
     });
-
+    
     var errorCount = 0;
     $('.confirm_create').click(function(){
         var private =  $('.private').is(':checked');
@@ -423,7 +392,7 @@ $(document).ready(function(){
         if (private && public && errorCount == 0) {
             $('.popup').append("<p class='errorMessage'>Please select either private or public</p>")
             errorCount = 1;
-        }else if(private && !public && email != null && people <= 6 && people > 0){
+        }else if(private && !public && email != null && people <= 6){
             localStorage.setItem("guide", 3);
             window.location = "main.html";
         }
@@ -458,7 +427,7 @@ $(document).ready(function(){
         }
         if(countDownTime == "00:00:00"){
             $(".guide_text17 span").append("Congratulations! You have been studying for a long period of time and completed all assignments! Good Job!");
-            openBubble12();
+            openBubble11();
         }
         var timer = countDownTime.split(':');
         var hours = parseInt(timer[0], 10);

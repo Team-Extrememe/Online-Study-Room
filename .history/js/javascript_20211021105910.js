@@ -1,14 +1,5 @@
 $(document).ready(function(){
 
-    $(".account").click(function(){
-        console.log(123);
-        if(localStorage.getItem("email") != null){
-            window.location.href="profile.html";
-        }else{
-            window.location.href="login.html";
-        }
-    });
-
     $(".create").click(function(){
         openDialog();
     });
@@ -423,7 +414,7 @@ $(document).ready(function(){
         if (private && public && errorCount == 0) {
             $('.popup').append("<p class='errorMessage'>Please select either private or public</p>")
             errorCount = 1;
-        }else if(private && !public && email != null && people <= 6 && people > 0){
+        }else if(private && !public && email != null && people <= 6){
             localStorage.setItem("guide", 3);
             window.location = "main.html";
         }
@@ -458,7 +449,7 @@ $(document).ready(function(){
         }
         if(countDownTime == "00:00:00"){
             $(".guide_text17 span").append("Congratulations! You have been studying for a long period of time and completed all assignments! Good Job!");
-            openBubble12();
+            openBubble11();
         }
         var timer = countDownTime.split(':');
         var hours = parseInt(timer[0], 10);
